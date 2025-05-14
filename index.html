@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarRent Pro | Premium Car Hire Services</title>
+    <link rel="stylesheet"  href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Car<span>Rent</span>Pro</a>
+            <nav>
+                <ul>
+                    <li><a href="#fleet">Our Fleet</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Car Hire Services</h1>
+            <p>Discover the perfect vehicle for your journey at unbeatable prices. Book online today and enjoy a seamless rental experience.</p>
+            <a href="#booking" class="btn">Book Your Car Now</a>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="fleet">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Fleet</h2>
+            </div>
+            
+            <div class="fleet-grid">
+                <!-- Car 1 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Toyota Corolla" class="car-img">
+                    <div class="car-info">
+                        <h3>Volkswagen</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 5 Seats</span>
+                            <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                        </div>
+                        <div class="car-price">$450/day</div>
+                        <button class="rent-btn" data-car="Toyota Corolla">Rent Now</button>
+                    </div>
+                </div>
+                
+                <!-- Car 2 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="BMW 3 Series" class="car-img">
+                    <div class="car-info">
+                        <h3>Porsche </h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 4 Seats</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                        </div>
+                        <div class="car-price">$4000/day</div>
+                        <button class="rent-btn" data-car="BMW 3 Series">Rent Now</button>
+                    </div>
+                </div>
+                
+                <!-- Car 3 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Range Rover Evoque" class="car-img">
+                    <div class="car-info">
+                        <h3>Mercedes-Benz</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 2 Seats</span>
+                            <span><i class="fas fa-gas-pump"></i> petrol</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                        </div>
+                        <div class="car-price">$6500/day</div>
+                        <button class="rent-btn" data-car="Range Rover Evoque">Rent Now</button>
+                    </div>
+                </div>
+                
+                <!-- Car 4 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Mercedes-Benz C-Class" class="car-img">
+                    <div class="car-info">
+                        <h3>Fiat 500</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 2 Seats</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                        </div>
+                        <div class="car-price">$100/day</div>
+                        <button class="rent-btn" data-car="Mercedes-Benz C-Class">Rent Now</button>
+                    </div>
+                </div>
+                
+                <!-- Car 5 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Ford Mustang" class="car-img">
+                    <div class="car-info">
+                        <h3>Mclaren</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 2 Seats</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                        </div>
+                        <div class="car-price">$5100/day</div>
+                        <button class="rent-btn" data-car="Ford Mustang">Rent Now</button>
+                    </div>
+                </div>
+                
+                <!-- Car 6 -->
+                <div class="car-card">
+                    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Volkswagen Golf" class="car-img">
+                    <div class="car-info">
+                        <h3>Lamborghini</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 2 Seat</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                            <span><i class="fas fa-cog"></i> Automatic </span>
+                        </div>
+                        <div class="car-price">$3000/day</div>
+                        <button class="rent-btn" data-car="Volkswagen Golf">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book Your Car</h2>
+            </div>
+            
+            <div class="booking-form">
+                <form id="rentalForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pickup-location">Pickup Location</label>
+                            <select id="pickup-location" required>
+                                <option value="">Select location</option>
+                                <option value="airport">City Airport</option>
+                                <option value="downtown">Downtown Office</option>
+                                <option value="train-station">Central Train Station</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dropoff-location">Drop-off Location</label>
+                            <select id="dropoff-location" required>
+                                <option value="">Select location</option>
+                                <option value="airport">City Airport</option>
+                                <option value="downtown">Downtown Office</option>
+                                <option value="train-station">Central Train Station</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pickup-date">Pickup Date</label>
+                            <input type="date" id="pickup-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dropoff-date">Drop-off Date</label>
+                            <input type="date" id="dropoff-date" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="car-type">Car Type</label>
+                            <select id="car-type" required>
+                                <option value="">Select car type</option>
+                                <option value="economy">Economy</option>
+                                <option value="compact">Compact</option>
+                                <option value="midsize">Midsize</option>
+                                <option value="suv">SUV</option>
+                                <option value="luxury">Luxury</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="car-model">Car Model</label>
+                            <select id="car-model" required>
+                                <option value="">Select car model</option>
+                                <option value="toyota-corolla">Toyota Corolla</option>
+                                <option value="bmw-3series">BMW 3 Series</option>
+                                <option value="range-rover">Range Rover Evoque</option>
+                                <option value="mercedes-c">Mercedes-Benz C-Class</option>
+                                <option value="ford-mustang">Ford Mustang</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Complete Booking</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonials">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <p>"The car was in excellent condition and the pickup process was seamless. Will definitely use CarRent Pro again for my next trip!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Smith.">
+                        <div class="author-info">
+                            <h4>James Smith.</h4>
+                            <p> Traveller</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <p>"Great selection of vehicles at competitive prices. The staff was very helpful in choosing the right car for our family vacation."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M.">
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <p>Social Media Influencer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <p>"I've rented from many companies before, but CarRent Pro stands out for their excellent customer service and well-maintained fleet."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Michael T.">
+                        <div class="author-info">
+                            <h4>Michael Timon.</h4>
+                            <p>Frequent Renter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>CarRent Pro</h3>
+                    <p>Premium car hire services with a wide selection of vehicles to suit every need and budget.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#fleet">Our Fleet</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Airport Rentals</a></li>
+                        <li><a href="#">Long Term Rentals</a></li>
+                        <li><a href="#">Business Rentals</a></li>
+                        <li><a href="#">Luxury Vehicles</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 743- South Africa</li>
+                        <li><i class="fas fa-phone"></i> +27 123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@CarRent.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sun: 8:00 AM - 8:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 CarRent Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Complete Your Booking</h2>
+            <p id="selectedCar"></p>
+            <form id="quickBookingForm">
+                <div class="form-group">
+                    <label for="quick-pickup-date">Pickup Date</label>
+                    <input type="date" id="quick-pickup-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="quick-dropoff-date">Drop-off Date</label>
+                    <input type="date" id="quick-dropoff-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="quick-location">Pickup Location</label>
+                    <select id="quick-location" required>
+                        <option value="">Select location</option>
+                        <option value="airport">Airport</option>
+                        <option value="downtown"> Office</option>
+                        <option value="train-station">Drop-off</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
